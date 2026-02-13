@@ -1,59 +1,55 @@
-# PortafolioAngular
+👨‍💻 Portfolio Personal - Abel
+Portfolio personal desarrollado con Angular 21. El sitio cuenta con Server-Side Rendering (SSR) configurado.
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.1.
+✨ Características Principales
 
-## Development server
+  - 📱 Diseño responsive - Incluye media query en (max-width: 768px) que ajusta header, hero y padding de secciones
 
-To start a local development server, run:
+  - 🎨 Estilos personalizados - CSS propio con colores azul (#4a6cf7) para botones y detalles
 
-```bash
-ng serve
-```
+  - 📐 Maquetación con Flexbox y Grid - Uso de flex-wrap y grid-template-columns: repeat(auto-fit, minmax(250px, 1fr))
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+  - 🃏 Sistema de tarjetas - Para cursos y proyectos (.curso, .proy) con sombras y bordes redondeados
 
-## Code scaffolding
+  - 📹 Video de presentación - Contenedor con relación de aspecto 16:9
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+  - 📑 Formulario de contacto - Estilos definidos para input, textarea y botón
 
-```bash
-ng generate component component-name
-```
+  - ⚡ SSR (Server-Side Rendering) - Configurado en angular.json con "outputMode": "server"
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+📑 Secciones del Portfolio
 
-```bash
-ng generate --help
-```
+  - 🏠 Inicio - Hero section con foto y botón "Contrátame"
 
-## Building
+  - 👤 Sobre mí - Estudiante en Davante Medac, DAW
 
-To build the project run:
+  - 📚 Cursos realizados - HTML, JAVA, GIT, CSS3
 
-```bash
-ng build
-```
+  - 💼 Experiencia laboral - Desarrollador Web (2023-Actualidad), Técnico SMR en PROELAN SL (2022-2023), Camarero (2024-Actualidad)
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+🛠️ Tecnologías Utilizadas
 
-## Running unit tests
+  - Framework: Angular 21.0.0
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+  - Lenguaje: TypeScript ~5.9.2
 
-```bash
-ng test
-```
+  - Estilos: CSS propio + Bootstrap 5.3 (CDN importado en angular.json)
 
-## Running end-to-end tests
+  - Renderizado: @angular/ssr 21.0.1
 
-For end-to-end (e2e) testing, run:
+  - Testing: Vitest 4.0.8, JSDOM 27.1.0
 
-```bash
-ng e2e
-```
+  - Backend: Express 5.1.0
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+  - Control de versiones: Git & GitHub
 
-## Additional Resources
+📋 Prerrequisitos
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+  - Node.js (versión compatible con npm 11.6.2)
+
+  - npm 11.6.2
+
+  - Angular CLI 21.0.1
+
+🔄 Control de Versiones
+Este proyecto utiliza Git y GitHub para el control de versiones.
