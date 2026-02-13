@@ -1,0 +1,23 @@
+<section class="contacto">
+  <h2>Contacto</h2>
+
+  <form [formGroup]="formulario" (ngSubmit)="enviar()">
+    <input type="text" formControlName="nombre" placeholder="Nombre">
+    <input type="email" formControlName="email" placeholder="Email">
+    <input type="text" formControlName="telefono" placeholder="Teléfono">
+    <textarea formControlName="mensaje" placeholder="Mensaje"></textarea>
+
+    <button type="submit" [disabled]="formulario.invalid">
+      Enviar
+    </button>
+  </form>
+
+  <section class="video-container">
+    <h2>Video de Presentación</h2>
+    <video id="videoPresentacion" controls poster="assets/CSS/IMAGENES/ABEL.jpg">
+      <source src="assets/CSS/VIDEO/video_mp4.mp4" type="video/mp4">
+      <source src="assets/CSS/VIDEO/video_ogg.ogg" type="video/ogg">
+      <source src="assets/CSS/VIDEO/video_webm.webm" type="video/webm">
+    </video>
+  </section>
+</section>
